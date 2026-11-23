@@ -49,7 +49,12 @@ export const siteConfig = {
   name: "Sniff Pet Kuaför",
   shortName: "Sniff",
   tagline: "Kedi ve Köpek Bakımında Profesyonel Dokunuş",
-  url: "https://www.sniffpetkuafor.com", // TODO: gerçek alan adınız
+  /**
+   * Sitenin yayındaki adresi (paylaşım önizlemeleri, sitemap ve Google için).
+   * Cloudflare Pages proje adı "sniff-pet-kuafor" ise adres budur.
+   * Kendi alan adınızı bağladığınızda burayı güncelleyin (ör. "https://www.sniffpetkuafor.com").
+   */
+  url: "https://sniff-pet-kuafor.pages.dev",
 
   /** Logo dosyaları (public/brand/). Yeniden üretmek için: python3 scripts/prepare-logo.py */
   brand: {
