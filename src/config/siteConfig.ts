@@ -83,15 +83,15 @@ export const siteConfig = {
 
   contact: {
     /** Ekranda gösterilecek telefon */
-    phoneDisplay: "+90 (500) 000 00 00", // TODO
+    phoneDisplay: "0551 242 06 03",
     /** tel: linki için (boşluksuz) */
-    phoneHref: "+905000000000", // TODO
+    phoneHref: "+905512420603",
     /** WhatsApp numarası: ülke kodu ile, başında + ve boşluk olmadan */
-    whatsappNumber: "905000000000", // TODO
+    whatsappNumber: "905512420603",
     /** WhatsApp butonlarında kullanılan varsayılan mesaj */
     whatsappDefaultMessage:
       "Merhaba Sniff Pet Kuaför 🐾 Minik dostum için randevu almak istiyorum. Uygun gün ve saatleri öğrenebilir miyim?",
-    /** TODO: E-posta adresiniz (boş bırakılırsa sitede gösterilmez) */
+    /** E-posta adresi (boş bırakılırsa sitede gösterilmez) */
     email: "",
   },
 
@@ -111,11 +111,9 @@ export const siteConfig = {
     mapsEmbedUrl: "",
   },
 
-  /** TODO: Çalışma saatlerinizi doğrulayın / güncelleyin */
   hours: [
-    { days: "Pazartesi – Cuma", time: "09:30 – 19:30" },
-    { days: "Cumartesi", time: "09:30 – 18:00" },
-    { days: "Pazar", time: "Kapalı" },
+    { days: "Pazartesi – Cumartesi", time: "09:00 – 19:00" },
+    { days: "Pazar", time: "10:30 – 19:00" },
   ],
 
   social: {
