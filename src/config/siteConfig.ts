@@ -54,7 +54,7 @@ export const siteConfig = {
    * Cloudflare Pages proje adı "sniff-pet-kuafor" ise adres budur.
    * Kendi alan adınızı bağladığınızda burayı güncelleyin (ör. "https://www.sniffpetkuafor.com").
    */
-  url: "https://sniff-pet-kuafor.pages.dev",
+  url: "https://sniff-pet-kuafor.yunustan0623.workers.dev",
 
   /** Logo dosyaları (public/brand/). Yeniden üretmek için: python3 scripts/prepare-logo.py */
   brand: {
