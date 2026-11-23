@@ -1,0 +1,17 @@
+# bağımlılıklar & build çıktıları
+node_modules
+node_modules.nosync
+.next
+.next.nosync
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# ortam değişkenleri
+.env*.local
+
+# Vercel
+.vercel
+
+# sistem dosyaları
+.DS_Store
